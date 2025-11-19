@@ -172,9 +172,9 @@ Complete the exercise in the space below:
 
 function convertTemperature(temperature, tempScale) {
     if (tempScale === "C") {
-        return ( (temperature * 9/5) + (32) )
+        return ( (temperature * 9/5) + (32) + " (Fahrenheit)" )
     } else if ( tempScale === "F") {
-        retuen ( (temperature - 32) * (5/9) )
+        retuen ( (temperature - 32) * (5/9) + " (Celsius)") 
     }
 };
 
